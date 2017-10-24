@@ -17,6 +17,7 @@ A solution set is:
  第二个被加数从第一个被加数后递增遍历，定义变量begin，第三个被加数从len开始递减遍历，
  定义变量end，若sum==0,则加入三者数组。否则继续++、--。当begin与前一个begin相等时begin++，
  同理end，直到begin==end。
+ 注意：不能用==或===来比较数组
 
  */
 var threeSum = function(nums) {
